@@ -1,0 +1,139 @@
+*{
+    margin:auto;
+    padding: auto;
+}
+body{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #0f9b0f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+.nav{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(6,208,35,1) 0%, rgba(13,12,12,1) 99.8% );
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+gap: 150px;
+margin-left: 100px;
+}
+ul li{
+    display: flex;
+    color: chartreuse;
+    justify-content: space-around;
+    cursor: pointer;
+}
+ul li a:hover{
+    color:yellow;
+}
+.btn{
+    border-radius: 5px;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}
+.btn:hover{
+    color:yellow;
+    cursor: pointer;
+    gap: 0%;
+}
+.hom{
+    margin-bottom: 100px;
+
+}
+.Gta{
+    margin-left: 0%;
+    display:flex;
+    margin-top: 0%;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.GTA-1{
+    display: inline-block;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 180px;
+    color: yellowgreen;
+    border-radius: 2px;
+    border-color: blue;
+    align-items: center;
+    margin-right: 20px;
+    padding: 20px;
+}
+.hmm{
+    display: inline-block;
+    color: antiquewhite;
+    margin-top: 100px;
+    text-align: center;
+    color: crimson;
+}
+.about{
+    padding-top: 5px;
+    color: antiquewhite;
+    font-size: larger;
+    gap: 100px;
+    display: flex;
+    text-align: center;
+    margin-right: 100px;
+
+}
+.cartoons{
+    text-decoration: dashed;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.Avengers{
+    text-align: center;
+    justify-content: space-around;
+    color: aliceblue;
+}
+.Bentens{
+    text-align: center;
+    justify-content: space-around;
+    color: aliceblue;
+}
+.TomJerry{
+    text-align: center;
+    justify-content: space-around;
+    color: aliceblue;
+}
+.cartoon2{
+    text-decoration: dashed;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.PinkPanther{
+    text-align: center;
+    justify-content: space-around;
+    color: aliceblue;
+}
+.LaddyBug{
+    text-align: center;
+    justify-content: space-around;
+    color: aliceblue;
+}
+.Fairytales{
+    text-align: center;
+    justify-content: space-around;
+    color: aliceblue;
+}
+.footer{
+    background-color: black;
+    color: aliceblue;
+}
